@@ -1,1 +1,1 @@
-web: exec N8N_PORT=$PORT n8n start
+web: env N8N_PORT=$PORT n8n start
