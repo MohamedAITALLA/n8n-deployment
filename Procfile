@@ -1,1 +1,1 @@
-web: n8n start
+web: node server.js
