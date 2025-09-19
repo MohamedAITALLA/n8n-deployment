@@ -1,0 +1,21 @@
+{
+  "name": "n8n",
+  "description": "n8n workflow automation",
+  "website": "https://n8n.io/",
+  "repository": "https://github.com/MohamedAITALLA/n8n-deployment",
+  "env": {
+    "N8N_ENCRYPTION_KEY": {
+      "description": "Encryption key for credentials",
+      "generator": "secret"
+    },
+    "N8N_BASIC_AUTH_USER": {
+      "description": "Basic auth username",
+      "value": "admin"
+    },
+    "N8N_BASIC_AUTH_PASSWORD": {
+      "description": "Basic auth password",
+      "generator": "secret"
+    }
+  },
+  "addons": ["postgresql:sandbox"]
+}

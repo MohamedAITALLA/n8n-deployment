@@ -1,0 +1,16 @@
+{
+  "name": "n8n-scalingo-deployment",
+  "version": "1.0.0",
+  "description": "n8n deployment on Scalingo",
+  "scripts": {
+    "start": "n8n start",
+    "postinstall": "echo 'Installation completed'"
+  },
+  "dependencies": {
+    "n8n": "^1.103.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
