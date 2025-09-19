@@ -4,10 +4,11 @@
   "description": "n8n deployment on Scalingo",
   "scripts": {
     "start": "n8n start",
-    "postinstall": "echo 'Installation completed'"
+    "postinstall": "echo 'Installation completed'",
+    "prestart": "echo 'Starting n8n server...'"
   },
   "dependencies": {
-    "n8n": "^1.103.2"
+    "n8n": "1.111.0"
   },
   "engines": {
     "node": ">=18.0.0",
